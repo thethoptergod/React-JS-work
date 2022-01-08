@@ -1,0 +1,70 @@
+
+#plan{
+  max-width: 50%;
+  text-align: center;
+  max-height: 50%;
+  display: grid;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-areas:
+  "bedOne bedOne bedOne bedOne living living living living kitcheng kitcheng"
+  "bedOne bedOne bedOne bedOne living living living living kitcheng kitcheng"
+  "bedOne bedOne bedOne bedOne living living living living kitcheng kitcheng"
+  "bedOne bedOne bedOne bedOne living living living living kitcheng kitcheng"
+  "full full full full living living living living kitcheng kitcheng"
+  "full full full full living living living living kitcheng kitcheng"
+  "bedTwo bedTwo bedTwo bedTwo half half bedThree bedThree bedThree bedThree"
+  "bedTwo bedTwo bedTwo bedTwo half half bedThree bedThree bedThree bedThree"
+  "bedTwo bedTwo bedTwo bedTwo half half bedThree bedThree bedThree bedThree"
+  "bedTwo bedTwo bedTwo bedTwo half half bedThree bedThree bedThree bedThree";
+}
+#bedOne{
+  grid-area: bedOne;
+  background-color: indianred;
+}
+#bedTwo{
+  grid-area: bedTwo;
+  background-color: indigo;
+}
+#bedThree{
+  grid-area: bedThree;
+  background-color: lightcoral;
+}
+#Halfbath{
+  grid-area: half;
+  background-color: lightcyan;
+}
+#Fullbath{
+  grid-area: full;
+  background-color: lightcyan;
+}
+#living{
+  grid-area: living;
+  background-color: lightsalmon;
+}
+#kitcheng{
+  grid-area: kitcheng;
+  display: grid;
+  grid-template-columns: 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px;
+  grid-template-areas: 
+  "oven sink"
+  "kitchen kitchen"
+  "kitchen kitchen"
+  "kitchen kitchen"
+  "kitchen kitchen"
+  "kitchen kitchen";
+}
+#kitchen{
+  grid-area: kitchen;
+  background-color: lightsteelblue;
+}
+#oven{
+  grid-area: oven;
+  background-color: black;
+  color: white;
+}
+#sink{
+  grid-area: sink;
+  background-color: silver;
+}

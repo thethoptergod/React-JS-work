@@ -1,0 +1,18 @@
+#img{
+  grid-area: "img";
+  max-width: 100px;
+}
+#booktitle{
+  grid-area: "title";
+}
+#bookdesc{
+  grid-area: "desc";
+}
+#book{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "title title"
+  "img desc";
+}
