@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+#ship{
+  display: block;
+}
+#name{
+  justify-items: center;
+}
+#info{
+  justify-items: center;
+}
